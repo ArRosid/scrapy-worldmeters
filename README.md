@@ -9,3 +9,6 @@ If you have scrapy installed, you can run this command by this command<br>
 
 You can also scrape the countries forecast population using this command<br>
 <i>scrapy crawl countries_forecast -o result_forecast.json</i>
+
+You can also scrape the past & future populations of countries in just one time by using this command<br>
+<i>scrapy crawl countries_past_future -o result_past_future.json</i>
